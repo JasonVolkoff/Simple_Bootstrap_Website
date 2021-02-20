@@ -6,7 +6,7 @@
 }
 .jumbotron{
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     margin-top: 1em;
     background-color: lightgray;
 }
@@ -22,10 +22,19 @@
     color: white;
 }
 #maincontent{
-    background-color: green;
+    /* background-color: green; */
     min-height: 300px;
 }
-.subcontents{
-    background-color: blue;
+.subcontentswhite{
+    background-color: white;
     min-height: 200px;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+.subcontentsblack{
+    background-color: black;
+    min-height: 200px;
+    border-radius: 1em;
+    margin-right: 1em;
+    
 }
